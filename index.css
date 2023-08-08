@@ -1,0 +1,120 @@
+@font-face {
+    font-family: gotham;
+    src: url(font/GothamMedium_1.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: gotham;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(82, 0, 38, 0.884), rgb(0, 23, 32));
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    margin: 20px 0px 1px 20px;
+}
+
+#buscar{
+    margin: 10px;
+    background-color:#e0eeee00;
+    border:solid 1px #f0f0f05e;
+    border-left: #ffffff7d;
+    border-right: #ffffff35;
+    width:150px;
+    height:32px;
+    align-items: center;
+    
+  }
+  #procurar{
+    float:left;
+    background-color:transparent;
+    font-size:15px;
+    border:none;
+    height:30px;
+    width:90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+#lupa{
+    width: 30px;
+    height: 30px;
+}
+#home{
+    color:#1db954;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#your{
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #c8f4d4;
+}
+
+.blocoum{
+    width: 200px;
+    height: 1000px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(60, 0, 28, 0.884), rgb(0, 23, 32));
+}
+
+.blocodois{
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    border-bottom: 2px solid #1db954;
+}
+
+#titulo{
+    margin: 40px auto;
+    font-size: 30px;
+    color: white;
+}
+#flex{
+    display: flex;
+}
+
+#albuns{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.UmDois{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.BlocoUmDois{
+    padding: 10px;
+}
+
+.DoisDois{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+p{
+    color: white;
+}
