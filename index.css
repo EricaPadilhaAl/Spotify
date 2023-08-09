@@ -153,7 +153,7 @@ li{
 .tres{
     width: 100%;
     height: auto;
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(88, 88, 88);
 }
 footer{
     width: 100%;
@@ -162,7 +162,7 @@ footer{
 }
 
 button{
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(88, 88, 88);
     border: gray;
 }
 button:hover{
@@ -200,19 +200,26 @@ button:hover{
     height: auto;
     margin: 0px 0px 0px 800px;
 }
-
-#coração{
-    width: 30px;
-    height: 30px;
+.audio{
+ margin: 0px 0px 0px 860px;
 }
-#pc{
+
+#volume{
+width: 20px;
+height: 20px;
+}
+
+#forma{
     width: 20px;
     height: 20px;
 }
-#volume{
-    width: 40px;
-    height: 40px;
+
+#pc{
+width: 20px;
+height: 20px;
 }
-.audio{
- margin: 40px 0px 0px 860px;
+
+
+#canto{
+    margin: 0px 0px 0px 1700px;
 }
